@@ -1,0 +1,68 @@
+Install Unreal Engine from source; currently compiled binaries do not include:
+
+"Ionic.Zip.Reduced"
+
+//==================================================================================================
+
+Install Mono for Ubuntu
+(This provides the necessary framework for JetBrains Rider)
+
+Update app repository
+sudo apt install gnupg ca-certificates
+sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 3FA7E0328081BFF6A14DA29AA6A19B38D3D831EF
+echo "deb https://download.mono-project.com/repo/ubuntu stable-focal main" | sudo tee /etc/apt/sources.list.d/mono-official-stable.list
+sudo apt update
+
+Install mono
+sudo apt install mono-devel
+
+//==================================================================================================
+
+Install .Net for Ubuntu
+(This provides the necessary framework for JetBrains Rider)
+
+wget https://packages.microsoft.com/config/ubuntu/20.04/packages-microsoft-prod.deb -O packages-microsoft-prod.deb
+sudo dpkg -i packages-microsoft-prod.deb
+rm packages-microsoft-prod.deb
+
+sudo apt-get update; \
+  sudo apt-get install -y apt-transport-https && \
+  sudo apt-get update && \
+  sudo apt-get install -y dotnet-sdk-6.0
+
+//==================================================================================================
+
+Install Lutris for access to Unreal Marketplace
+
+sudo add-apt-repository ppa:lutris-team/lutris
+sudo apt update
+sudo apt install lutris
+
+//==================================================================================================
+
+Update Wine
+(The version of wine included in Ubuntu by default is not recommended by Lutris for the Epic Game Store.)
+
+sudo dpkg --add-architecture i386
+
+sudo wget -nc -O /usr/share/keyrings/winehq-archive.key https://dl.winehq.org/wine-builds/winehq.key
+
+sudo wget -nc -P /etc/apt/sources.list.d/ https://dl.winehq.org/wine-builds/ubuntu/dists/focal/winehq-focal.sources
+
+sudo apt install --install-recommends winehq-stable
+
+//==================================================================================================
+
+Create symbolic link from Linux Projects to Lutris drive
+(This will allow the Epic Game Store running through the emulator to find projects.)
+
+Navigate to Lutris user folder (e.g. cd ~/Games/epic-games-store/drive_c/users/zeronul/Documents)
+
+ln -sf ~/projects/unreal/ ./My\ Documents/Unreal\ Projects
+
+
+
+
+
+
+
