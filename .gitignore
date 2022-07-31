@@ -1,3 +1,11 @@
+# JetBrains Rider generates files
+# ------------------------------------------------------------------------
+**/.idea
+
+# Unreal Engine / Visual Studio generated files
+# These files were included by the GitHub UnrealEngine .gitignore template
+# ------------------------------------------------------------------------
+
 # Visual Studio 2015 user specific files
 .vs/
 
