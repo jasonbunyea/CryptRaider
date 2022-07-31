@@ -1,0 +1,67 @@
+[
+	{
+		"file": "/home/zeronul/projects/unreal/CryptRaider/Source/CryptRaider/CryptRaider.Build.cs",
+		"command": "/home/zeronul/installs/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++ @/home/zeronul/projects/unreal/CryptRaider/.vscode/compileCommands_Default/CryptRaider.201.rsp",
+		"directory": "/home/zeronul/installs/UnrealEngine/Engine/Source"
+	},
+	{
+		"file": "/home/zeronul/projects/unreal/CryptRaider/Source/CryptRaider/CryptRaider.cpp",
+		"command": "/home/zeronul/installs/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++ @/home/zeronul/projects/unreal/CryptRaider/.vscode/compileCommands_Default/CryptRaider.201.rsp",
+		"directory": "/home/zeronul/installs/UnrealEngine/Engine/Source"
+	},
+	{
+		"file": "/home/zeronul/projects/unreal/CryptRaider/Source/CryptRaider/CryptRaider.h",
+		"command": "/home/zeronul/installs/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++ @/home/zeronul/projects/unreal/CryptRaider/.vscode/compileCommands_Default/CryptRaider.201.rsp",
+		"directory": "/home/zeronul/installs/UnrealEngine/Engine/Source"
+	},
+	{
+		"file": "/home/zeronul/projects/unreal/CryptRaider/Source/CryptRaider/CryptRaiderCharacter.cpp",
+		"command": "/home/zeronul/installs/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++ @/home/zeronul/projects/unreal/CryptRaider/.vscode/compileCommands_Default/CryptRaider.201.rsp",
+		"directory": "/home/zeronul/installs/UnrealEngine/Engine/Source"
+	},
+	{
+		"file": "/home/zeronul/projects/unreal/CryptRaider/Source/CryptRaider/CryptRaiderCharacter.h",
+		"command": "/home/zeronul/installs/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++ @/home/zeronul/projects/unreal/CryptRaider/.vscode/compileCommands_Default/CryptRaider.201.rsp",
+		"directory": "/home/zeronul/installs/UnrealEngine/Engine/Source"
+	},
+	{
+		"file": "/home/zeronul/projects/unreal/CryptRaider/Source/CryptRaider/CryptRaiderGameMode.cpp",
+		"command": "/home/zeronul/installs/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++ @/home/zeronul/projects/unreal/CryptRaider/.vscode/compileCommands_Default/CryptRaider.201.rsp",
+		"directory": "/home/zeronul/installs/UnrealEngine/Engine/Source"
+	},
+	{
+		"file": "/home/zeronul/projects/unreal/CryptRaider/Source/CryptRaider/CryptRaiderGameMode.h",
+		"command": "/home/zeronul/installs/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++ @/home/zeronul/projects/unreal/CryptRaider/.vscode/compileCommands_Default/CryptRaider.201.rsp",
+		"directory": "/home/zeronul/installs/UnrealEngine/Engine/Source"
+	},
+	{
+		"file": "/home/zeronul/projects/unreal/CryptRaider/Source/CryptRaider/CryptRaiderProjectile.cpp",
+		"command": "/home/zeronul/installs/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++ @/home/zeronul/projects/unreal/CryptRaider/.vscode/compileCommands_Default/CryptRaider.201.rsp",
+		"directory": "/home/zeronul/installs/UnrealEngine/Engine/Source"
+	},
+	{
+		"file": "/home/zeronul/projects/unreal/CryptRaider/Source/CryptRaider/CryptRaiderProjectile.h",
+		"command": "/home/zeronul/installs/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++ @/home/zeronul/projects/unreal/CryptRaider/.vscode/compileCommands_Default/CryptRaider.201.rsp",
+		"directory": "/home/zeronul/installs/UnrealEngine/Engine/Source"
+	},
+	{
+		"file": "/home/zeronul/projects/unreal/CryptRaider/Source/CryptRaider/TP_PickUpComponent.cpp",
+		"command": "/home/zeronul/installs/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++ @/home/zeronul/projects/unreal/CryptRaider/.vscode/compileCommands_Default/CryptRaider.201.rsp",
+		"directory": "/home/zeronul/installs/UnrealEngine/Engine/Source"
+	},
+	{
+		"file": "/home/zeronul/projects/unreal/CryptRaider/Source/CryptRaider/TP_PickUpComponent.h",
+		"command": "/home/zeronul/installs/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++ @/home/zeronul/projects/unreal/CryptRaider/.vscode/compileCommands_Default/CryptRaider.201.rsp",
+		"directory": "/home/zeronul/installs/UnrealEngine/Engine/Source"
+	},
+	{
+		"file": "/home/zeronul/projects/unreal/CryptRaider/Source/CryptRaider/TP_WeaponComponent.cpp",
+		"command": "/home/zeronul/installs/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++ @/home/zeronul/projects/unreal/CryptRaider/.vscode/compileCommands_Default/CryptRaider.201.rsp",
+		"directory": "/home/zeronul/installs/UnrealEngine/Engine/Source"
+	},
+	{
+		"file": "/home/zeronul/projects/unreal/CryptRaider/Source/CryptRaider/TP_WeaponComponent.h",
+		"command": "/home/zeronul/installs/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++ @/home/zeronul/projects/unreal/CryptRaider/.vscode/compileCommands_Default/CryptRaider.201.rsp",
+		"directory": "/home/zeronul/installs/UnrealEngine/Engine/Source"
+	}
+]

@@ -1,0 +1,121 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "Launch CryptRaider (Debug)",
+			"request": "launch",
+			"program": "/home/zeronul/projects/unreal/CryptRaider/Binaries/Linux/CryptRaider-Linux-Debug",
+			"preLaunchTask": "CryptRaider Linux Debug Build",
+			"args": [
+			],
+			"cwd": "/home/zeronul/installs/UnrealEngine",
+			"type": "cppdbg",
+			"visualizerFile": "/home/zeronul/installs/UnrealEngine/Engine/Extras/VisualStudioDebugging/Unreal.natvis",
+			"showDisplayString": true
+		},
+		{
+			"name": "Launch CryptRaider (DebugGame)",
+			"request": "launch",
+			"program": "/home/zeronul/projects/unreal/CryptRaider/Binaries/Linux/CryptRaider-Linux-DebugGame",
+			"preLaunchTask": "CryptRaider Linux DebugGame Build",
+			"args": [
+			],
+			"cwd": "/home/zeronul/installs/UnrealEngine",
+			"type": "cppdbg",
+			"visualizerFile": "/home/zeronul/installs/UnrealEngine/Engine/Extras/VisualStudioDebugging/Unreal.natvis",
+			"showDisplayString": true
+		},
+		{
+			"name": "Launch CryptRaider (Development)",
+			"request": "launch",
+			"program": "/home/zeronul/projects/unreal/CryptRaider/Binaries/Linux/CryptRaider",
+			"preLaunchTask": "CryptRaider Linux Development Build",
+			"args": [
+			],
+			"cwd": "/home/zeronul/installs/UnrealEngine",
+			"type": "cppdbg",
+			"visualizerFile": "/home/zeronul/installs/UnrealEngine/Engine/Extras/VisualStudioDebugging/Unreal.natvis",
+			"showDisplayString": true
+		},
+		{
+			"name": "Launch CryptRaider (Test)",
+			"request": "launch",
+			"program": "/home/zeronul/projects/unreal/CryptRaider/Binaries/Linux/CryptRaider-Linux-Test",
+			"preLaunchTask": "CryptRaider Linux Test Build",
+			"args": [
+			],
+			"cwd": "/home/zeronul/installs/UnrealEngine",
+			"type": "cppdbg",
+			"visualizerFile": "/home/zeronul/installs/UnrealEngine/Engine/Extras/VisualStudioDebugging/Unreal.natvis",
+			"showDisplayString": true
+		},
+		{
+			"name": "Launch CryptRaider (Shipping)",
+			"request": "launch",
+			"program": "/home/zeronul/projects/unreal/CryptRaider/Binaries/Linux/CryptRaider-Linux-Shipping",
+			"preLaunchTask": "CryptRaider Linux Shipping Build",
+			"args": [
+			],
+			"cwd": "/home/zeronul/installs/UnrealEngine",
+			"type": "cppdbg",
+			"visualizerFile": "/home/zeronul/installs/UnrealEngine/Engine/Extras/VisualStudioDebugging/Unreal.natvis",
+			"showDisplayString": true
+		},
+		{
+			"name": "Launch CryptRaiderEditor (Debug)",
+			"request": "launch",
+			"program": "/home/zeronul/installs/UnrealEngine/Engine/Binaries/Linux/UnrealEditor-Linux-Debug",
+			"preLaunchTask": "CryptRaiderEditor Linux Debug Build",
+			"args": [
+				"/home/zeronul/projects/unreal/CryptRaider/CryptRaider.uproject"
+			],
+			"cwd": "/home/zeronul/installs/UnrealEngine",
+			"type": "cppdbg",
+			"visualizerFile": "/home/zeronul/installs/UnrealEngine/Engine/Extras/VisualStudioDebugging/Unreal.natvis",
+			"showDisplayString": true
+		},
+		{
+			"name": "Launch CryptRaiderEditor (DebugGame)",
+			"request": "launch",
+			"program": "/home/zeronul/installs/UnrealEngine/Engine/Binaries/Linux/UnrealEditor-Linux-DebugGame",
+			"preLaunchTask": "CryptRaiderEditor Linux DebugGame Build",
+			"args": [
+				"/home/zeronul/projects/unreal/CryptRaider/CryptRaider.uproject"
+			],
+			"cwd": "/home/zeronul/installs/UnrealEngine",
+			"type": "cppdbg",
+			"visualizerFile": "/home/zeronul/installs/UnrealEngine/Engine/Extras/VisualStudioDebugging/Unreal.natvis",
+			"showDisplayString": true
+		},
+		{
+			"name": "Launch CryptRaiderEditor (Development)",
+			"request": "launch",
+			"program": "/home/zeronul/installs/UnrealEngine/Engine/Binaries/Linux/UnrealEditor",
+			"preLaunchTask": "CryptRaiderEditor Linux Development Build",
+			"args": [
+				"/home/zeronul/projects/unreal/CryptRaider/CryptRaider.uproject"
+			],
+			"cwd": "/home/zeronul/installs/UnrealEngine",
+			"type": "cppdbg",
+			"visualizerFile": "/home/zeronul/installs/UnrealEngine/Engine/Extras/VisualStudioDebugging/Unreal.natvis",
+			"showDisplayString": true
+		},
+		{
+			"name": "Generate Project Files",
+			"type": "coreclr",
+			"request": "launch",
+			"program": "/home/zeronul/installs/UnrealEngine/Engine/Binaries/DotNET/UnrealBuildTool/UnrealBuildTool",
+			"args": [
+				"-projectfiles",
+				"-vscode",
+				"-project=/home/zeronul/projects/unreal/CryptRaider/CryptRaider.uproject",
+				"-game",
+				"-engine"
+			],
+			"console": "internalConsole",
+			"internalConsoleOptions": "openOnSessionStart",
+			"stopAtEntry": false,
+			"cwd": "/home/zeronul/installs/UnrealEngine"
+		}
+	]
+}

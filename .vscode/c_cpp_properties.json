@@ -1,0 +1,14 @@
+{
+	"configurations": [
+		{
+			"name": "CryptRaiderEditor Editor Linux Development (CryptRaider)",
+			"intelliSenseMode": "clang-x64",
+			"compileCommands": "/home/zeronul/projects/unreal/CryptRaider/.vscode/compileCommands_CryptRaider.json"
+		},
+		{
+			"name": "Linux",
+			"intelliSenseMode": "clang-x64",
+			"compileCommands": "/home/zeronul/projects/unreal/CryptRaider/.vscode/compileCommands_Default.json"
+		}
+	]
+}
