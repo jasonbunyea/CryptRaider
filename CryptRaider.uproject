@@ -3,6 +3,13 @@
 	"EngineAssociation": "{C05E54A6-413E-4164-BEAD-6A384CDCDF3F}",
 	"Category": "",
 	"Description": "",
+	"Modules": [
+		{
+			"Name": "CryptRaider",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	],
 	"Plugins": [
 		{
 			"Name": "ModelingToolsEditorMode",
